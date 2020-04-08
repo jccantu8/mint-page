@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mint signup page</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<div id="signin-info">
+			<div id="signin-info-text">
+				Already have an Intuit account?
+				<a href="#" id="forgot-info">I forgot my User ID or Password</a>
+			</div>
+			<input type="button" name="signin" id="signin-button" value="Sign In">
+		</div>
+
+		<nav id="quicklinks">
+			<img src="image/ecosystem_logo.png" id="intuit-logo">
+			<ul>
+				<li class="logos"><img src="image/mint_logo.png"></li>
+				<li class="logos"><img src="image/mint_text.png"></li>
+				<li class="logos"><img src="image/quickbooks_logo.png"></li>
+				<li class="logos"><img src="image/quickbooks_text.png"></li>
+				<li class="logos"><img src="image/turbotax_logo.png"></li>
+				<li class="logos"><img src="image/turbotax_text.png"></li>
+			</ul>
+		</nav>
+	</header>
+
+	<form action="user_signup_path" method="post">
+		<h2>Create an Inuit account</h2>
+		<p>One account for everything Intuit, including Mint.</p>
+			<fieldset>
+				<label>
+				Email Address
+				<input type="Email" name="email">
+				<p style="font-size: small">Standard call, messaging or data rates may apply.</style></p>
+				</label>
+				<label>
+				Phone (recommended)
+				<input type="tel" name="number">
+				</label>
+				<label>
+				Password
+				<input type="Password" name="password">
+				</label>
+			</fieldset>
+
+			<input type="submit" name="createaccount" value="Create Account" id="account-button">
+			<p id="terms">By clicking Create account, you agree to our
+				Terms and have read and acknowledge our Privacy Statement.
+			</p>
+	</form>
+
+	<footer>
+		<nav id="other-links">
+			<ul>
+				<li class="legal">Legal</li>
+				<li class="legal">Privacy</li>
+				<li class="legal">Security</li>
+			</ul>
+		</nav>
+
+		<p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+		<p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+	</footer>
+</body>
+</html>
